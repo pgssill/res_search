@@ -1,0 +1,25 @@
+export type ShopSearchResult = {
+  slug: string;
+  geocode: { lon: number; lat: number };
+  name: string | string[];
+  name_translations: { translation: string; locale: string }[];
+  currency: string;
+  search_image: string;
+  locale: string;
+  distance: number;
+  cuisines: string[];
+  tags: string;
+  budget_lunch_min: number;
+  content_title_translations: { translation: string; locale: string }[];
+  content_body_translations: { translation: string; locale: string }[];
+  budget_lunch_max: number;
+  budget_dinner_min: number;
+  budget_dinner_max: number;
+  tagline_translations: { translation: string; locale: string }[];
+  kana_name: string;
+  location_name_translations: { translation: string; locale: string }[];
+  location_kana_name: string;
+  is_smartpayable: boolean;
+  service_modes: string[];
+  booking_page_mode: string;
+};
