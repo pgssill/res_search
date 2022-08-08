@@ -22,3 +22,7 @@ Due to a lack of free time to work on this project, there are a few shortcomings
 - Run `nvm use` (will use the correct Node.js version)
 - Run `npm i --legacy-peer-deps` (will install the dependencies)
 - Run `npm start` (will start the app in http://localhost:3000/)
+
+## Netlify
+
+Available at https://tchk-r-s.netlify.app/
